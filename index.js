@@ -1,5 +1,5 @@
 import 'dotenv/config'
-import { Server } from './src/models/server.js'
+import { Server } from './src/models/Server.js'
 import {  DataBase} from './src/db/db.js';
 
 const database = new DataBase(); // inicializamos la base de datos
