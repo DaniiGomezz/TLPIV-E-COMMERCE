@@ -1,6 +1,6 @@
 import { User } from './User.js';
 import { Roles } from './Roles.js';
-import { Producto } from './Producto.js';
+import { Product } from './Product.js';
 import { Cart } from './Cart.js';
 import { CartItem } from './CartItem.js';
 import { Order } from './Order.js';
@@ -10,7 +10,7 @@ class InitModels {
     static init(database) { // usamos static para no tener que crear una instancia de InitModels
         Roles.initModel(database);
         User.initModel(database);
-        Producto.initModel(database);
+        Product.initModel(database);
         Cart.initModel(database);
         CartItem.initModel(database);
         Order.initModel(database);

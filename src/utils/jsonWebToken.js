@@ -1,4 +1,4 @@
-import { config } from '../src/config/config.env.js';
+import { config } from '../config/config.env.js';
 import jwt from 'jsonwebtoken'
 
 class Jwt {

@@ -2,9 +2,9 @@ import { DataTypes, Model } from "sequelize";
 
 
 // en products se detallan los productos y el vendedor asociado
-class Producto extends Model {
+class Product extends Model {
     static initModel(database) {
-        Producto.init(
+        Product.init(
             {
                 productName: {
                     type: DataTypes.STRING,
@@ -32,4 +32,4 @@ class Producto extends Model {
     }
 }
 
-export { Producto }
+export { Product }
